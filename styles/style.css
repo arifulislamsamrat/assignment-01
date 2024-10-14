@@ -141,20 +141,141 @@ text-align: center;
 }
 .targetQuestionInner{
     /* border: 1px solid red; */
-    padding: 97px;
+    /* padding: 97px; */
+    margin: 20px 100px;
+    /* background: white; */
     
 }
 .question{
     display: flex;
-    /* margin: 48px; */
-    padding: 30px;
+    /* border: 1px solid red; */
+    padding: 45px;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid red;
+    margin-bottom: 30px;
+    background: white;
+    border-radius: 10px;
+    
 }
 .halfWidth{
     width: 70%;
+    /* border: 1px solid red; */
 }
-.halfWidthImage{
-    width: 25%;
+.halfWidthImage>img{
+    /* width: 20%; */
+    /* border: 1px solid red; */
+    height: 240px;
+
+}
+.halfWidth>h4{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: "Azeret Mono";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.halfWidth>p{
+    color: rgb(13, 19, 33);
+font-family: "Azeret Mono";
+font-size: 12px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.questionBtn{
+    width: 151px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    background-color: white;
+    margin-top: 32px;
+
+}
+
+/* My inspiration section started */
+.inspirationSect{
+    margin:50px 148px ;
+    /* border: 1px solid red; */
+}
+.inspirationPara, .targetpara{
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 20px 50px;
+    
+}
+.inspirationheading, .targetHeading{
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.myVideo{
+    width: 100%;
+    border: 1px solid rgb(219, 211, 211);
+    border-radius: 10px;
+    
+}
+.myVideo>iframe{
+    width: 98%;
+    height:520px;
+    padding: 10px;
+}
+.currentTarget{
+    margin:50px 148px ;
+}
+.targetCard{
+    /* border: 1px solid red; */
+    display: flex;
+}
+.card{
+    padding: 40px;
+    /* border: 1px solid red; */
+    margin: 24px;
+}
+.card>h5{
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 44px;
+}
+.card>p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 44px;
+}
+.cardOne{
+    border-radius: 16px;
+    background: rgba(255, 75, 30, 0.137);
+}
+.cardTwo{
+    border-radius: 16px;
+
+background: rgba(0, 76, 232, 0.05);
+}
+.cardThree{
+    border-radius: 16px;
+
+background: rgba(255, 223, 0, 0.05);
 }
