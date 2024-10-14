@@ -12,37 +12,41 @@
 }
 .logo{
     color: rgb(13, 19, 33);
-font-family: "Azeret Mono" , monospace;
-font-size: 28px;
-font-weight: 800;
-line-height: 33px;
-letter-spacing: 0%;
-text-align: left;
+    font-family: "Azeret Mono" , monospace;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.btnAnch{
+    text-decoration: none;
+    color: black;
 }
 .resumeBtn{
 
 
 
-box-sizing: border-box;
-border: 1px solid rgb(13, 19, 33);
-border-radius: 8px;
-background-color: white;
-opacity: 0.8;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    background-color: white;
+    opacity: 0.8;
 
 
 
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-gap: 10;
-padding: 10px 18px 10px 18px;
-/* font sizing  */
-color: rgb(13, 19, 33);
-font-family: "Azeret Mono";
-font-size: 20px;
-font-weight: 600;
-text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 10px 18px 10px 18px;
+    /* font sizing  */
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
 }
 
 /* main section started from here */
@@ -72,13 +76,13 @@ text-align: center;
 
 }
 .heroHeading{
-margin:32px 120px;
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 42px;
-font-weight: 800;
+    margin:32px 120px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 42px;
+    font-weight: 800;
 
-text-align: center;
+    text-align: center;
 }
 .heroParagraph{
     margin: 24px 180px;
@@ -98,13 +102,17 @@ text-align: center;
     padding: 21px 24px 21px 24px;
 
     /* font */
-
+    
     color: rgb(255, 255, 255);
     font-family: "Azeret Mono";
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 0%;
     text-align: center;
+}
+.contactBtn>a{
+    text-decoration: none;
+    color: white;
 }
 
 .targetQuestion{
@@ -202,7 +210,7 @@ text-align: left;
     margin:50px 148px ;
     /* border: 1px solid red; */
 }
-.inspirationPara, .targetpara{
+.inspirationPara, .targetpara, .nextTargetPara{
     color: rgb(13, 19, 33);
     font-family: "Azeret Mono";
     font-size: 16px;
@@ -213,7 +221,7 @@ text-align: left;
     margin: 20px 50px;
     
 }
-.inspirationheading, .targetHeading{
+.inspirationheading, .targetHeading, .nextTargetHeading{
     color: rgb(13, 19, 33);
     font-family: "Azeret Mono";
     font-size: 28px;
@@ -232,6 +240,7 @@ text-align: left;
     width: 98%;
     height:520px;
     padding: 10px;
+    border: 10px;
 }
 .currentTarget{
     margin:50px 148px ;
@@ -244,6 +253,12 @@ text-align: left;
     padding: 40px;
     /* border: 1px solid red; */
     margin: 24px;
+}
+.card>a, .nextCardDescribe>a{
+    text-decoration: none;
+    color:black ;
+    font-weight: 700;
+    border-bottom: 1px solid black;
 }
 .card>h5{
     color: rgb(13, 19, 33);
@@ -278,4 +293,138 @@ background: rgba(0, 76, 232, 0.05);
     border-radius: 16px;
 
 background: rgba(255, 223, 0, 0.05);
+}
+.support{
+    margin:50px 148px ;
+    background:  url("../assets/handshake.jpg");
+    background-color: rgba(0, 0, 0, 0.312);
+    background-blend-mode: overlay;
+    height: 313px;
+    border-radius: 16px;
+  
+    
+
+}
+.support>h4{
+    padding: 48px 64px;
+    color: rgb(255, 255, 255);
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.support>p{
+    padding:  0px 64px;
+    color: rgba(239, 233, 233, 0.579);
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.submit{
+    margin-top: 35px;
+    text-align: center;
+   
+}
+.submit>input{
+    
+    width: 313px;
+    padding: 15px;
+    color: gray;
+    border-radius: 10px;
+    border: none;
+}
+.submitBtn{
+
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 17px 20px 17px 20px;
+
+    border: none;
+    margin: 0px 16px;
+    border-radius: 10px;
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.footer{
+    height: 50px;
+    padding:10px 150px ;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.068);
+    align-items: center;
+}
+.commitment>p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.icon>img{
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    margin-left: 24px;
+}
+.nextTarget{
+    margin:50px 148px ;
+    
+}
+.nextTargetCard{
+    padding: 40px;
+   
+}
+.nextCard{
+    padding: 40px;
+    align-items: center;
+    margin-bottom: 24px;
+    border-radius: 10px;
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.289);
+    border-radius: 16px;
+
+    background: rgb(255, 255, 255);
+    
+}
+.nextCard:hover{
+    border: 1px solid rgba(132, 152, 199, 0.15);
+}
+.nextCard>img{
+    margin-right: 20px;
+    height: 120px;
+}
+.nextCardDescribe>h5{
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.nextCardDescribe>p{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+  
 }
